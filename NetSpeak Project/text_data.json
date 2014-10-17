@@ -1,0 +1,34 @@
+{
+ "name": "information",
+ "children": [
+  {
+   "name": "and",
+   "children": [
+	{"name": "visualization", "id": "visualization1", "size": 17010}
+   ]
+  },
+  {
+   "name": "for",
+   "children": [
+    {"name": "visualization", "id": "visualization1", "size": 0},{
+   "name": "and2",
+   "children": [
+	{"name": "visualization", "id": "visualization1", "size": 17010}
+   ]
+  },
+  {
+   "name": "and3",
+   "children": [
+	{"name": "visualization", "id": "visualization1", "size": 17010}
+   ]
+  }
+   ]
+  },
+  {
+   "name": ",",
+   "children": [
+    {"name": "visualization", "id": "visualization1", "size": 170100}	
+   ]
+  }
+ ]
+}

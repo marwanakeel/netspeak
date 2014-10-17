@@ -1,0 +1,48 @@
+path.link {
+  fill: none;
+  stroke: #AAA;
+  stroke-width: 1.5px;
+}
+
+path.link.twofive {
+  opacity: 0.25;
+}
+
+path.link.fivezero {
+  opacity: 0.50;
+}
+
+path.link.sevenfive {
+  opacity: 0.75;
+}
+
+path.link.onezerozero {
+  opacity: 1.0;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke-width: 1.0px;
+}
+
+text {
+  fill: #000;
+  font: 12px sans-serif;
+  pointer-events: none;
+}
+
+#content, #divSVG, #footer{
+    margin: auto;
+    text-align: center;
+}
+#divSVG{
+    background-color: #ffffff;
+    border-style:solid;
+    border-width:1px;
+    width:960px;
+    height:500px;
+    box-shadow: 10px 10px 5px #888888;
+    margin-top: 20px;
+
+}

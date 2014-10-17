@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css">
+<body>
+    <div id="header">
+    </div>
+    <div id="content">
+        <form name="myform" action="" method="GET">
+            Input your query:
+            <input id="inputBox" type="text" name="inputbox" value="" placeholder="Enter your query">
+            Number of Nodes:
+            <input id = "InputNoResults" type="range" name="rangeInput" value="10" min="0" max="20" oninput = "updateTextInput(this.value);" onchange="updateTextInput(this.value);">
+            <input type="text" id="textInput" value="10" style = "width:30px">
+			<div id="controlType">
+			<input type="radio" id="typeOfControl1" name = "ccc" value="Static" checked>Static 
+			<input type="radio" id="typeOfControl2" name = "ccc" value="Dynamic">Dynamic
+			</div>
+            <input id="buttonBox" type="button" name="button" value="Submit" onClick="parserMain()" onSubmit = "parserMain()">
+        </form>
+        <div id = "divSVG">
+        </div>
+    </div>
+    <div id="footer">
+        <p>© Johannes Kepler University of Linz, 2014</p>
+    </div>
+<script src="scripts.js"></script>
